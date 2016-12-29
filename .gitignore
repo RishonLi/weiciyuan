@@ -9,15 +9,18 @@
 *.class
 
 # generated files
-#bin/
-#gen/
+bin
+gen
 
-# Local configuration file (sdk path, etc)
-local.properties
-weiciyuan.iml
-.idea
+# build gen
 ant.properties
 proguard-project.txt
-build.xml
 project.properties
-weiciyuan.iml
+local.properties
+settings.gradle
+gradle.properties
+build.xml
+
+# Local configuration file (sdk path, etc)
+*.iml
+.idea
